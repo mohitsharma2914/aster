@@ -1,0 +1,19 @@
+{
+  "name": "aster",
+  "version": "1.0.0",
+  "description": "Bone Marrow transplant programme landing page",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mohitsharma2914/aster.git"
+  },
+  "author": "Mohit Sharma",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mohitsharma2914/aster/issues"
+  },
+  "homepage": "https://github.com/mohitsharma2914/aster#readme"
+}
