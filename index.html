@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html>
     <meta name="description" content="">
     <meta charset="UTF-8">
@@ -8,5 +9,280 @@
     <!-- title -->
     <title>Aster CMI Hospital</title>
     <!-- Font -->
-    
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:wght@700&display=swap" rel="stylesheet">
+    <!-- css -->
+    <link href="css/slick.css" rel="stylesheet" />
+    <link href="css/aos.css" rel="stylesheet" />
+    <link href="css/style.css" rel="stylesheet" type="text/css" /> 
+    <!-- js -->
+    <script src="js/jquery3.5.1.min.js"></script>
+
+    <body>
+
+        <section class="topSection">
+            <div class="container">
+                <div class="flex-layout">
+                    <div class="main-description">
+                        <img src="images/logo.png" alt="logo" />
+
+                        <div class="heading-box">
+                            <h1>ADULT & PAEDIATRIC BONE MARROW TRANSPLANT PROGRAMME</h1>
+                            <p>Haematology | Oncology | Immunology</p>
+                            <button class="topButton">Book An Appointment</button>
+                        </div>
+                    </div>
+                    <div class="enquiry-form">
+                        <div class="whiteBox">
+                            <h3>Enquire now</h3>
+                            <form>
+                                <div class="form-element">
+                                    <input type="text" required placeholder="Name" />
+                                    <span class="error"></span>
+                                </div>
+                                <div class="form-element">
+                                    <input type="email" required placeholder="Email ID" />
+                                    <span class="error"></span>
+                                </div>
+                                <div class="form-element">
+                                    <input type="tel" maxlength="10" minlength="10" id='phone' placeholder="Phone Number" />
+                                    <span class="error"></span>
+                                </div>
+                                <div class="form-element">
+                                    <textarea rows="4" placeholder="Your Message"></textarea>
+                                    <span class="error"></span>
+                                </div>
+                                <div class="form-element">
+                                    <div class="captcha">
+                                        <div class="flex-row">
+                                            <div class="spinner">
+                                                <label>
+                                                    <input type="checkbox" onclick="$(this).attr('disabled','disabled');">
+                                                    <span class="checkmark"><span>&nbsp;</span></span>
+                                                </label>
+                                            </div>
+                                            <div class="text">
+                                                I'm not a robot
+                                            </div>
+                                        </div>    
+                                        <div class="logo">
+                                            <img src="https://forum.nox.tv/core/index.php?media/9-recaptcha-png/"/>
+                                            <p>reCAPTCHA</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <button class="topBtn" type="submit">Submit</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        
+        <section class="bone-marrow-detail">
+            <div class="container">
+                <div class="flex-layout">
+                    <div class="image-box">
+                        <img src="images/born-marrow.png" />
+                    </div>
+                    <div class="detail">
+                        <h4 class="title">
+                            Bone Marrow Transplant (BMT) better known as haematopoietic <br />stem cell transplant(HSCT) as bone marrow cells are transplanted
+ 
+                        </h4>
+                        <ul>    
+                            <li>
+                                Replacement of diseased or defective marrow with marrow from a healthy <br /> donor
+                            </li>
+                            <li>
+                                Medicines and in certain situations radiotherapy as well is given to get rid of diseased marrow and bone marrow cells from healthy donor is given to replace it.
+                            </li>
+                            <li>
+                                IN autologous bone marrow transplant, high dose chemotherapy is given to kill <br/>cancer cells and child own marrow cells are given back
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="doctors">
+            <div class="container">
+                <h2 class="heading">Doctors</h2>
+                <div class="flex-layout">
+                    <div class="pediatric bmt">
+                        <h3>Pediatric BMT </h3>
+                        <div class="profile">
+                            <img src="images/doctor.png" alt="doctor-name" />
+                            <h4 class="doctor-name">Dr. Vijay Agarwal</h4>
+                            <p class="designation">MD, MRCP, PhD,CCT <br/>
+                                Lead & Sr. Consultant - Medical Oncology & Haematology</p>
+                            <span class="small-line"></span>
+                            <p class="brief-intro">Dr. Vijay Agarwal is a Senior Consultant Medical Oncologist with over 12 years of experience in Oncology. Dr. Agarwal has been practising Medical Oncology since 2004. </p>
+
+                            <a href="javascript:;" class="know-more">Know More</a>
+                        </div>
+                        <div class="profile">
+                            <img src="images/doctor.png" alt="doctor-name" />
+                            <h4 class="doctor-name">Dr. Vijay Agarwal</h4>
+                            <p class="designation">MD, MRCP, PhD,CCT <br/>
+                                Lead & Sr. Consultant - Medical Oncology & Haematology</p>
+                            <span class="small-line"></span>
+                            <p class="brief-intro">Dr. Vijay Agarwal is a Senior Consultant Medical Oncologist with over 12 years of experience in Oncology. Dr. Agarwal has been practising Medical Oncology since 2004. </p>
+
+                            <a href="javascript:;" class="know-more">Know More</a>
+                        </div>
+                    </div>
+                    <div class="adult bmt">
+                        <h3>Adult BMT </h3>
+                        <div class="profile">
+                            <img src="images/doctor.png" alt="doctor-name" />
+                            <h4 class="doctor-name">Dr. Vijay Agarwal</h4>
+                            <p class="designation">MD, MRCP, PhD,CCT <br/>
+                                Lead & Sr. Consultant - Medical Oncology & Haematology</p>
+                            <span class="small-line"></span>
+                            <p class="brief-intro">Dr. Vijay Agarwal is a Senior Consultant Medical Oncologist with over 12 years of experience in Oncology. Dr. Agarwal has been practising Medical Oncology since 2004. </p>
+
+                            <a href="javascript:;" class="know-more">Know More</a>
+                        </div>
+                        <div class="profile">
+                            <img src="images/doctor.png" alt="doctor-name" />
+                            <h4 class="doctor-name">Dr. Vijay Agarwal</h4>
+                            <p class="designation">MD, MRCP, PhD,CCT <br/>
+                                Lead & Sr. Consultant - Medical Oncology & Haematology</p>
+                            <span class="small-line"></span>
+                            <p class="brief-intro">Dr. Vijay Agarwal is a Senior Consultant Medical Oncologist with over 12 years of experience in Oncology. Dr. Agarwal has been practising Medical Oncology since 2004. </p>
+
+                            <a href="javascript:;" class="know-more">Know More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>    
+        </section>
+
+        <section class="bone-types">
+            <div class="container">
+                <h2 class="heading">What are the types of Bone Marrow Transplant?</h2>
+                <ul>
+                    <li>
+                    Autologous Bone Marrow Transplant - Marrow cells are collected from the patient’s own body and transfused back after high dose chemotherapy.</li>
+                    <li>Allogenic Bone Marrow Transplant (Matched Sibling Donor) – Replacement of diseased or defective marrow with marrow from a genetically (HLA) matched sibling donor.</li>
+                    <li>Allogenic Bone Marrow Transplant (Matched Unrelated Donor) – Replacement of diseased or defective marrow with marrow from a genetically (HLA) matched donor obtained from bone marrow registries in India and abroad.</li>
+                    <li>Haplo-Identical Bone Marrow Transplant - Replacement of diseased or defective marrow with marrow from the parent.</li>
+                    <li>Umbilical cord Bone Marrow Transplant - Replacement of diseased or defective marrow with marrow from a genetically (HLA) matched umbilical cord donor obtained from umbilical cord registries in India and abroad.</li>
+                </ul>
+            </div>
+        </section>
+
+        <section class="warning-signs">
+            <div class="container">
+                <h2 class="heading">The warning signs of Immune deficiency</h2>
+                <div class="grid-4" id="box">
+                    <!-- box will be created by jQuery -->
+                </div>
+            </div>
+        </section>
+
+        <section class='faq'>
+            <div class="container">
+                <div class="accordion" id='accordion'>
+                    <div class="accordion-head active">
+                        <h3 class="title">What are the conditions that requireBone Marrow Transplant?<span class="bar"></span></h3>
+                        <div class="ans" style="display: block;">
+                            <ul>
+                                <li>
+                                    BMT is the treatment of choice for blood disorders like Thalassemia, Sickle Cell anemia, bone marrow failure syndromes like Aplastic anemia, serious immune deficiencies and certain  genetic metabolic disorders. </li>
+                                    <li>It is also used to treat high risk cancers like some cases of Acute Lymphoblastic Leukemia, Acute Myeloid Leukemia, Multiple Myeloma and solid tumours like Neuroblastoma, Ewings Sarcoma and certain relapsed cancers like Lymphomas
+                                </li>	
+                            </ul>
+                        </div>
+                    </div>  
+                    <div class="accordion-head">
+                        <h3 class="title">Which are the hematological diseases that may benefit from bone marrow transplants?<span class="bar"></span></h3>
+                        <div class="ans">
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                        </div>
+                    </div>
+                    <div class="accordion-head">
+                        <h3 class="title">Which are the Cancers that may benefit from bone marrow transplants?<span class="bar"></span></h3>
+                        <div class="ans">
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                        </div>
+                    </div>
+                    <div class="accordion-head">
+                        <h3 class="title">Do bone marrow failure syndromes require BMT?<span class="bar"></span></h3>
+                        <div class="ans">
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                        </div>
+                    </div>
+                    <div class="accordion-head">
+                        <h3 class="title">What are Primary Immune Deficiency diseases ?<span class="bar"></span></h3>
+                        <div class="ans">
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                        </div>
+                    </div>
+                    <div class="accordion-head">
+                        <h3 class="title">Which are the immune deficiencies that warrant BMT?<span class="bar"></span></h3>
+                        <div class="ans">
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                        </div>
+                    </div>
+                    <div class="accordion-head">
+                        <h3 class="title">What makes transplants at Aster CMI unique? <span class="bar"></span></h3>
+                        <div class="ans">
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="testimonials">
+            <div class="container">
+                <h2 class="heading">Testimonials</h2>
+                <p class="subHeading">It is a long established fact that a reader will be distracted by the readable content of a page <br/> when looking at its layout. </p>
+
+                <div class="slider-arrows">
+                    <div class="back">
+                        <img src="images/backArrow.png"/>
+                    </div>
+                    <div class="next">
+                        <img src="images/nextArrow.png" />
+                    </div>
+                </div>
+
+                <ul class="testimonials-slider" id="testimonials">
+                   <!-- comes from JS -->
+                </ul>
+
+                <div class="bookAppointment">
+                    <button>Book an Appointment</button>
+                </div>
+            </div>
+        </section>
+        
+        
+        <footer>
+            <div class="container">
+                <div class="social-icons">
+                    <a href="javascript:;"><img src="images/fb.png" alt="facebook" /></a>
+                    <a href="javascript:;"><img src="images/insta.png" alt="instagram" /></a>
+                    <a href="javascript:;"><img src="images/youtube.png" alt="youtube" /></a>
+                    <a href="javascript:;"><img src="images/twitter.png" alt="twitter" /></a>
+                    <a href="javascript:;"><img src="images/linkedin.png" alt="linkedin" /></a>
+
+                    <div class="bottomtotop" id='backToTop'>
+                        <img src="images/top.png" alt="go to top" />
+                    </div>
+                </div>
+                <p class="footer-text">Aster CMI. All Rights Reserved</p>
+        </footer>
+
+
+        
+        <script src="js/slick.js"></script>
+        <script src="js/aos.js"></script>
+        <script src="js/main.js"></script>
+    </body>
 </html>
