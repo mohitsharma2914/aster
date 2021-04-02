@@ -1,6 +1,6 @@
 #master
 
-#PreRequisite files to download 
+#Pre-Requisite
 
 #Node (stable version)
 #Code Editor
